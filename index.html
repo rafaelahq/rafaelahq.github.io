@@ -1,49 +1,49 @@
-<! DOCTYPE html >
-	< html  lang = " pt-br " >
-	< cabeça >
-	    < meta  charset = " UTF-8 " >
-	    < meta  http-equiv = " X-UA-Compatible " content = " IE = edge " >
-	    < meta  name = " viewport " content = " width = device-width, initial-scale = 1.0 " >
-	    < Vínculo  rel = " stylesheet " href =" https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css " integridade =" SHA384-Gn5384xqQ1aoWXA + 058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW / dAiS6JXm " crossorigin =" anonymous " >
-	    < link  rel = " stylesheet " href = " CSS / estilo.css " >
-	    < title > Meu Site </ title >
-	</ head >
-	< corpo >
-	    < div  class = " container " >
-	        < div  class = " row " >
-	            < nav  class = " nav " >
-	                < li  class = " nav-item " >
-	                    < A  class = " nav-link " href =" # " > ponto 1 </ a >
-	                </ li >
-	                < li  class = " nav-item " >
-	                    < A  class = " nav-link " href =" # " > ponto 2 </ a >
-	                </ li >
-	                < li  class = " nav-item " >
-	                    < A  class = " nav-link " href =" # " > ponto 3 </ a >
-	                </ li >
-	                < li  class = " nav-item " >
-	                    < A  class = " nav-link " href =" # " > Item 4 </ a >
-	                </ li >
-	                < li  class = " nav-item " >
-	                    < A  class = " nav-link " href =" # " > item 5 </ a >
-	                </ li >
-	            </ nav >
-	        </ div >
-	        < div  class = " row " >
-	            < div  class = " col d-flex justify-content-center " >
-	                < img  class = " img-fluid " src = " imgs / perfil.jpg " width = " 30% " alt = " perfil " >
-	            </ div >
-	        </ div >
-	        < div  class = " row " >
-	            < div  class = " col " >
-	                
-	            </ div >
-	        </ div >
-	    </ div >
-	
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Presets</title>
 
-	    < Roteiro  src = " https://code.jquery.com/jquery-3.2.1.slim.min.js " integridade =" SHA384-KJ3o2DKtIkvYIK3UENzmM7KCkRr / RE9 / Qpg6aAZGJwFDMVNA / GpGFF93hXpG5KkN " crossorigin =" anonymous " > </ script de >
-	    < Roteiro  src =" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integridade =" SHA384-ApNbgh9B + Y1QKtv3Rn7W3mgPxhU9K / ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin =" anonymous " > </ script >
-	    < Roteiro  src = " https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integridade =" SHA384-JZR6Spejh4U02d8jOt6vLEHfe / JQGiRRSQQxSfFWpi1MquVdAyjUar5 + 76PVCmYl " crossorigin =" anonymous " > </ script de >
-	</ body >
-	</ html >
+	<script type="text/javascript" src="https://tonejs.github.io/build/Tone.js"></script>
+	<script type="text/javascript" src="https://tonejs.github.io/Logo/build/Logo.js"></script>
+
+	<script type="text/javascript" src="scripts/codemirror.js"></script>
+	<script type="text/javascript" src="scripts/javascript.js"></script>
+	
+	<script type="text/javascript" src="scripts/audiokeys.js"></script>
+
+	<script type="text/javascript" src="scripts/PresetList.js"></script>
+	<script type="text/javascript" src="scripts/listen.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="style/codemirror.css">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+<body>
+	<div id="Topbar"></div>
+	<div id="Presets">
+		<div id="Instruments">
+			<br>
+				<div id="Names">
+					<span>Instrument:</span>
+					<select></select>
+				</div>
+				<div id="Preset">
+					<span>Preset:</span>
+					<select></select>
+				</div>
+			<br>
+			<div id="JSON"></div>
+			<br>
+			<div id="ErrorText"></div>
+			<button>Update</button>
+			<br>
+			<br>
+			<div class="Block">
+				use your keyboard to hear the instrument.
+				<br>
+				<img src="style/audiokeys-mapping.jpg">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
